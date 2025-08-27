@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", sans-serif;
+    background: url('https://images.unsplash.com/photo-1519681393784-d120267933ba') no-repeat center center/cover;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1000px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  }
+  
+  .weather-container input {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .weather-main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .weather-main img {
+    width: 80px;
+    margin-right: 20px;
+  }
+  
+  .location-info h2 {
+    font-size: 24px;
+  }
+  
+  .location-info p {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .location-info span {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  .forecast-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .forecast {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    width: 14%;
+  }
+  
+  .forecast p {
+    margin: 5px 0;
+  }
+  
+  .highlights {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .highlight {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+  }
+  
